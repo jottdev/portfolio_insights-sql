@@ -7,6 +7,7 @@ SELECT
     , l.outstanding_amount AS outstanding
     , LOWER(l.status) AS current_status
     , l.disbursement_date AS disburse_date
+
 FROM loans l
 INNER JOIN loan_applications la ON la.application_id = l.application_id
 INNER JOIN clients c ON c.client_id = la.client_id
