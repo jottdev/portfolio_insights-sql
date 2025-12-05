@@ -1,5 +1,7 @@
 /*
-This query groups loans by the month they were disbursed and tracks their repayments over time. It calculates cumulative payments and repayment ratios for each cohort to show how quickly different groups of loans pay down their principal.
+This query groups loans by the month they were disbursed and tracks their repayments over time. 
+It calculates cumulative payments and repayment ratios for each cohort to show how quickly 
+different groups of loans pay down their principal.
 */
 
 WITH loan_cohorts AS (
